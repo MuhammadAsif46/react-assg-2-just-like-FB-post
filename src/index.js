@@ -25,8 +25,7 @@ root.render(
     name="Jhon Dave"
     date="01-Jan-2023 7:30 pm"
     img={postImg2}
-    bodyText="Quick warning though: this tutorial is compleeete. And by that I mean looong. I turned this into a full-fledged free 5-day course, and I made a nice-looking PDF you can read on your iPad or [whatever Android device is cool these days]. Drop your email in the box to get both. (it’s spread over 5 days, but you can jump ahead whenever you want)."
-    />
+    bodyText="React is a UI library created by Facebook. It helps you create interactive web applications made up of components. If you’re familiar with HTML, you can think of components as fancy custom tags. That’s pretty much what they are: reusable bits of content and behavior that can be put on a web page.
     <App 
     profileImg={profileImg3}
     name="Robert Son"
