@@ -5,10 +5,11 @@
 }
 div > .post-main{
     /* border: 1px solid #000; */
-    margin: 0 2rem;
+    margin: 2rem 2rem;
     padding: 1.5rem;
     border-radius: 7px;
     min-width: 400px;
+    max-width: 520px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 div > .post-header{
