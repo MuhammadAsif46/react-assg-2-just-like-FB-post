@@ -1,5 +1,6 @@
 import postImage from "./img/post-img.jpg";
 import './App.css';
+import { ChatLeftText, HandThumbsUp, Share } from "react-bootstrap-icons";
 
 function App(props) {
   return (
@@ -12,9 +13,22 @@ function App(props) {
         </div>
       </div>
 
-      <p>{props.bodyText}</p>
+      <p className="para">{props.bodyText}</p>
 
       <img src={postImage} alt="post" className="postImg"/>
+
+        <div className="post-footer">
+          <div className="btn">
+            <HandThumbsUp />
+            Like
+          </div>
+          <div className="btn">
+            <ChatLeftText /> Comment
+          </div>
+          <div className="btn">
+            <Share /> Share
+          </div>
+        </div>
     </div>
   );
 }
