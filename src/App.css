@@ -1,3 +1,8 @@
+#root{
+    display: flex;
+    flex-direction: column  ;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +13,7 @@ div > .post-main{
     padding: 1rem 1.5rem;
     border-radius: 7px;
     min-width: 400px;
-    max-width: 520px;
+    max-width: 480px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 div > .post-header{
